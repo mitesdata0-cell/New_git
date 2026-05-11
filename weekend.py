@@ -21,3 +21,7 @@ def is_prime(x):
 def info(**kwargs):
     for i ,j in kwargs.items():
         print(i,":",j)
+
+
+def greet():
+    return "hello"
